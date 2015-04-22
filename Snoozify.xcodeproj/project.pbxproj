@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B98B10BF1AE845EF003AFE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B10B91AE845EF003AFE27 /* AppDelegate.swift */; };
+		B98B10C01AE845EF003AFE27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BB1AE845EF003AFE27 /* LaunchScreen.xib */; };
+		B98B10C11AE845EF003AFE27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BD1AE845EF003AFE27 /* Images.xcassets */; };
+		B98B10C81AE845FB003AFE27 /* SnoozifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B10C51AE845FB003AFE27 /* SnoozifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B98B10A71AE8452B003AFE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98B10891AE8452B003AFE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B98B10901AE8452B003AFE27;
+			remoteInfo = Snoozify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B98B10911AE8452B003AFE27 /* Snoozify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoozify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98B10A61AE8452B003AFE27 /* SnoozifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoozifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98B10B91AE845EF003AFE27 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B98B10BC1AE845EF003AFE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B98B10BD1AE845EF003AFE27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B98B10BE1AE845EF003AFE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98B10C51AE845FB003AFE27 /* SnoozifyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnoozifyTests.swift; sourceTree = "<group>"; };
+		B98B10C71AE845FB003AFE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B98B108E1AE8452B003AFE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B10A31AE8452B003AFE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B98B10881AE8452B003AFE27 = {
+			isa = PBXGroup;
+			children = (
+				B98B10B61AE845EF003AFE27 /* Snoozify */,
+				B98B10C31AE845FB003AFE27 /* SnoozifyTests */,
+				B98B10921AE8452B003AFE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B98B10921AE8452B003AFE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10911AE8452B003AFE27 /* Snoozify.app */,
+				B98B10A61AE8452B003AFE27 /* SnoozifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B98B10B61AE845EF003AFE27 /* Snoozify */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10B71AE845EF003AFE27 /* Classes */,
+				B98B10BA1AE845EF003AFE27 /* Resources */,
+			);
+			path = Snoozify;
+			sourceTree = "<group>";
+		};
+		B98B10B71AE845EF003AFE27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10B81AE845EF003AFE27 /* Application */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B98B10B81AE845EF003AFE27 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10B91AE845EF003AFE27 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B98B10BA1AE845EF003AFE27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10BB1AE845EF003AFE27 /* LaunchScreen.xib */,
+				B98B10BD1AE845EF003AFE27 /* Images.xcassets */,
+				B98B10BE1AE845EF003AFE27 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B98B10C31AE845FB003AFE27 /* SnoozifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10C41AE845FB003AFE27 /* Classes */,
+				B98B10C61AE845FB003AFE27 /* Resources */,
+			);
+			path = SnoozifyTests;
+			sourceTree = "<group>";
+		};
+		B98B10C41AE845FB003AFE27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10C51AE845FB003AFE27 /* SnoozifyTests.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B98B10C61AE845FB003AFE27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B98B10C71AE845FB003AFE27 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B98B10901AE8452B003AFE27 /* Snoozify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98B10B01AE8452B003AFE27 /* Build configuration list for PBXNativeTarget "Snoozify" */;
+			buildPhases = (
+				B98B108D1AE8452B003AFE27 /* Sources */,
+				B98B108E1AE8452B003AFE27 /* Frameworks */,
+				B98B108F1AE8452B003AFE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snoozify;
+			productName = Snoozify;
+			productReference = B98B10911AE8452B003AFE27 /* Snoozify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B98B10A51AE8452B003AFE27 /* SnoozifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98B10B31AE8452B003AFE27 /* Build configuration list for PBXNativeTarget "SnoozifyTests" */;
+			buildPhases = (
+				B98B10A21AE8452B003AFE27 /* Sources */,
+				B98B10A31AE8452B003AFE27 /* Frameworks */,
+				B98B10A41AE8452B003AFE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B98B10A81AE8452B003AFE27 /* PBXTargetDependency */,
+			);
+			name = SnoozifyTests;
+			productName = SnoozifyTests;
+			productReference = B98B10A61AE8452B003AFE27 /* SnoozifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B98B10891AE8452B003AFE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Julian Grosshauser";
+				TargetAttributes = {
+					B98B10901AE8452B003AFE27 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B98B10A51AE8452B003AFE27 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B98B10901AE8452B003AFE27;
+					};
+				};
+			};
+			buildConfigurationList = B98B108C1AE8452B003AFE27 /* Build configuration list for PBXProject "Snoozify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B98B10881AE8452B003AFE27;
+			productRefGroup = B98B10921AE8452B003AFE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98B10901AE8452B003AFE27 /* Snoozify */,
+				B98B10A51AE8452B003AFE27 /* SnoozifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B98B108F1AE8452B003AFE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B10C01AE845EF003AFE27 /* LaunchScreen.xib in Resources */,
+				B98B10C11AE845EF003AFE27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B10A41AE8452B003AFE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B98B108D1AE8452B003AFE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B10BF1AE845EF003AFE27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B10A21AE8452B003AFE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B10C81AE845FB003AFE27 /* SnoozifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B98B10A81AE8452B003AFE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B98B10901AE8452B003AFE27 /* Snoozify */;
+			targetProxy = B98B10A71AE8452B003AFE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B98B10BB1AE845EF003AFE27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B98B10BC1AE845EF003AFE27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B98B10AE1AE8452B003AFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B98B10AF1AE8452B003AFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98B10B11AE8452B003AFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B98B10B21AE8452B003AFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B98B10B41AE8452B003AFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SnoozifyTests/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snoozify.app/Snoozify";
+			};
+			name = Debug;
+		};
+		B98B10B51AE8452B003AFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SnoozifyTests/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snoozify.app/Snoozify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B98B108C1AE8452B003AFE27 /* Build configuration list for PBXProject "Snoozify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B10AE1AE8452B003AFE27 /* Debug */,
+				B98B10AF1AE8452B003AFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98B10B01AE8452B003AFE27 /* Build configuration list for PBXNativeTarget "Snoozify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B10B11AE8452B003AFE27 /* Debug */,
+				B98B10B21AE8452B003AFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98B10B31AE8452B003AFE27 /* Build configuration list for PBXNativeTarget "SnoozifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B10B41AE8452B003AFE27 /* Debug */,
+				B98B10B51AE8452B003AFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B98B10891AE8452B003AFE27 /* Project object */;
+}
