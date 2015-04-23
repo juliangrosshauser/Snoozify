@@ -1,0 +1,7 @@
+[
+  "-workspace", "Snoozify.xcworkspace",
+  "-scheme", "Snoozify",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
