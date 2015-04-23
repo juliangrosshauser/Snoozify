@@ -12,6 +12,7 @@
 		B98B10C01AE845EF003AFE27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BB1AE845EF003AFE27 /* LaunchScreen.xib */; };
 		B98B10C11AE845EF003AFE27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BD1AE845EF003AFE27 /* Images.xcassets */; };
 		B98B10C81AE845FB003AFE27 /* SnoozifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B10C51AE845FB003AFE27 /* SnoozifyTests.swift */; };
+		B9AE80851AE9918A005FACF4 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AE80841AE9918A005FACF4 /* Spotify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		B98B10BE1AE845EF003AFE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B98B10C51AE845FB003AFE27 /* SnoozifyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnoozifyTests.swift; sourceTree = "<group>"; };
 		B98B10C71AE845FB003AFE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AE80841AE9918A005FACF4 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "Carthage/Checkouts/ios-sdk/Spotify.framework"; sourceTree = "<group>"; };
 		F0A5A3951BE45402AC97481D /* Pods-SnoozifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnoozifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AE80851AE9918A005FACF4 /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B4F79C01C89B2AA2DBE13072 /* Pods_SnoozifyTests.framework */,
+				B9AE80841AE9918A005FACF4 /* Spotify.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -425,6 +429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ios-sdk",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/ios-sdk",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
