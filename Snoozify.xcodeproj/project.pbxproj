@@ -39,6 +39,7 @@
 		B98B10C71AE845FB003AFE27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9AE80841AE9918A005FACF4 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "Carthage/Checkouts/ios-sdk/Spotify.framework"; sourceTree = "<group>"; };
 		B9AE80871AE9929E005FACF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9AE80891AE99374005FACF4 /* Snoozify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Snoozify-Bridging-Header.h"; path = "Snoozify/Other Sources/Snoozify-Bridging-Header.h"; sourceTree = "<group>"; };
 		F0A5A3951BE45402AC97481D /* Pods-SnoozifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnoozifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B98B10B71AE845EF003AFE27 /* Classes */,
+				B9AE808A1AE99388005FACF4 /* Other Sources */,
 				B98B10BA1AE845EF003AFE27 /* Resources */,
 			);
 			path = Snoozify;
@@ -151,6 +153,15 @@
 				B98B10C71AE845FB003AFE27 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9AE808A1AE99388005FACF4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE80891AE99374005FACF4 /* Snoozify-Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F1227614759A95D26A6BC39B /* Pods */ = {
@@ -440,6 +451,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Other Sources/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -454,6 +466,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Snoozify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Other Sources/$(PROJECT_NAME)-Bridging-Header.h";
 			};
 			name = Release;
 		};
