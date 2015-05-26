@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C7D775419815DB400EF9D60 /* Pods_SnoozifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F79C01C89B2AA2DBE13072 /* Pods_SnoozifyTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B98B10BF1AE845EF003AFE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98B10B91AE845EF003AFE27 /* AppDelegate.swift */; };
 		B98B10C01AE845EF003AFE27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BB1AE845EF003AFE27 /* LaunchScreen.xib */; };
 		B98B10C11AE845EF003AFE27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98B10BD1AE845EF003AFE27 /* Images.xcassets */; };
@@ -27,8 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		842A2DAAA2D853D9E730C654 /* Pods-SnoozifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnoozifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4F79C01C89B2AA2DBE13072 /* Pods_SnoozifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnoozifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B10911AE8452B003AFE27 /* Snoozify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoozify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B10A61AE8452B003AFE27 /* SnoozifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnoozifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B10B91AE845EF003AFE27 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +37,6 @@
 		B9AE80841AE9918A005FACF4 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "Carthage/Checkouts/ios-sdk/Spotify.framework"; sourceTree = "<group>"; };
 		B9AE80871AE9929E005FACF4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B9AE80891AE99374005FACF4 /* Snoozify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Snoozify-Bridging-Header.h"; path = "Snoozify/Other Sources/Snoozify-Bridging-Header.h"; sourceTree = "<group>"; };
-		F0A5A3951BE45402AC97481D /* Pods-SnoozifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnoozifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C7D775419815DB400EF9D60 /* Pods_SnoozifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +62,6 @@
 		64590A9EF9F9928BA7B6C2C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4F79C01C89B2AA2DBE13072 /* Pods_SnoozifyTests.framework */,
 				B9AE80841AE9918A005FACF4 /* Spotify.framework */,
 				B9AE80871AE9929E005FACF4 /* AVFoundation.framework */,
 			);
@@ -80,7 +74,6 @@
 				B98B10B61AE845EF003AFE27 /* Snoozify */,
 				B98B10C31AE845FB003AFE27 /* SnoozifyTests */,
 				B98B10921AE8452B003AFE27 /* Products */,
-				F1227614759A95D26A6BC39B /* Pods */,
 				64590A9EF9F9928BA7B6C2C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -164,15 +157,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		F1227614759A95D26A6BC39B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F0A5A3951BE45402AC97481D /* Pods-SnoozifyTests.debug.xcconfig */,
-				842A2DAAA2D853D9E730C654 /* Pods-SnoozifyTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,12 +181,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B98B10B31AE8452B003AFE27 /* Build configuration list for PBXNativeTarget "SnoozifyTests" */;
 			buildPhases = (
-				4C6DB22F2725B8A24DC96F18 /* Check Pods Manifest.lock */,
 				B98B10A21AE8452B003AFE27 /* Sources */,
 				B98B10A31AE8452B003AFE27 /* Frameworks */,
 				B98B10A41AE8452B003AFE27 /* Resources */,
-				1A1AEEBAF5D5A74B62A6EB29 /* Embed Pods Frameworks */,
-				7932843E2FAEF5C647621A50 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,54 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1A1AEEBAF5D5A74B62A6EB29 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C6DB22F2725B8A24DC96F18 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7932843E2FAEF5C647621A50 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnoozifyTests/Pods-SnoozifyTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B98B108D1AE8452B003AFE27 /* Sources */ = {
@@ -472,7 +405,6 @@
 		};
 		B98B10B41AE8452B003AFE27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0A5A3951BE45402AC97481D /* Pods-SnoozifyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -492,7 +424,6 @@
 		};
 		B98B10B51AE8452B003AFE27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842A2DAAA2D853D9E730C654 /* Pods-SnoozifyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
