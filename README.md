@@ -4,5 +4,11 @@
 
 Snoozify is a sleep timer for Spotify.
 
+Build dependencies via [Carthage](https://github.com/Carthage/Carthage) first:
+
+``` shell
+$ carthage bootstrap
+```
+
 ## License
 [MIT](LICENSE)
