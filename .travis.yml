@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: beta-xcode6.3
+xcode_project: Snoozify.xcodeproj
+xcode_scheme: Snoozify
+xcode_sdk: iphonesimulator8.3
+before_install:
+  - brew update
+  - brew upgrade --all
+  - brew install carthage
+install: carthage bootstrap
